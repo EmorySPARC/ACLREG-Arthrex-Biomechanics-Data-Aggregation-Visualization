@@ -36,7 +36,7 @@ This is useful for batch-exporting motion analysis data into a format that is ea
 
 ## Current event logic
 
-The script is currently configured for a bilateral task using:
+The script is currently configured for the DVJ task using:
 
 ```python
 EVENT_IDS = ["LON", "LOFF", "RON", "ROFF"]
