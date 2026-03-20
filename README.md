@@ -86,9 +86,5 @@ Before using broadly, verify:
 - task-specific event logic
 - axis/sign conventions
 
----
-
-## License
-
 MIT License
 
