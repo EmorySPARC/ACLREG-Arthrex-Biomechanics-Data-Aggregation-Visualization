@@ -1,4 +1,4 @@
-# Biomechanics Analysis Pipeline - JSON to CSV
+# Biomechanics Analysis Pipeline - JSON to CSV and visualization
 
 This repo contains workflows for ACLREG/Arthrex where you want a clean, repeatable path from raw exports to prelim figures. Could be modified for anything that utilizes Qualisys reporting JSON outputs.
 
