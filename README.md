@@ -1,11 +1,11 @@
 # Qualisys Biomechanics Pipeline
 
-End-to-end pipeline for processing Qualisys motion capture data:
+End-to-end pipeline for processing motion capture data from JSON outputs:
 
 1. **Export time-series data from Qualisys JSON → CSV**
 2. **Generate group-level biomechanics plots from CSV**
 
-This repo contains workflows for ACLREG/Arthrex where you want a clean, repeatable path from raw exports to publication-ready figures. Could be modified for anything that utilizes Qualisys reporting outputs.
+This repo contains workflows for ACLREG/Arthrex where you want a clean, repeatable path from raw exports to prelim figures. Could be modified for anything that utilizes Qualisys reporting outputs.
 
 ---
 
