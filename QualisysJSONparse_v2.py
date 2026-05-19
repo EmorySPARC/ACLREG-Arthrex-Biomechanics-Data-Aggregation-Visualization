@@ -55,7 +55,7 @@ FPS = 120
 
 
 # -----------------------------
-# File dialog helpers (Tkinter)
+# File dialog helpers 
 # -----------------------------
 def pick_files_open():
     root = tk.Tk()
@@ -125,7 +125,7 @@ def desired_csv_stem_from_subject_id(subject_id: str) -> str:
 
 
 # -----------------------------
-# Subject header (top-of-CSV)
+# Subject header
 # -----------------------------
 def parse_ymd(s):
     if not s or not isinstance(s, str):
