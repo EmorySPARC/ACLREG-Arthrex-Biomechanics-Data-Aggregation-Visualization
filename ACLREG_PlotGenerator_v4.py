@@ -14,7 +14,7 @@ from tkinter import filedialog
 
 
 # =========================
-# USER CONFIG
+# Config
 # =========================
 
 GROUP_KEYS = ["RET", "CTRL"]
@@ -45,7 +45,7 @@ OUT_MOMENTS_PNG = "dvj_moments_contra.png"
 
 
 # =========================
-# LIMB SELECTION (per group)
+# Limb Selection (per group)
 # =========================
 # Modes:
 #   "injured"   -> injured/ACLR limb
@@ -66,7 +66,7 @@ MANUAL_INJURED_LIMB: Dict[str, str] = {
 
 
 # =========================
-# PANELS
+# Panels
 # =========================
 ANGLES_PANELS = [
     ("Hip Angle", "Sagittal"),
@@ -94,7 +94,7 @@ MOMENTS_PANELS = [
 
 
 # =========================
-# COLUMN MAPPING
+# Col Mapping
 # =========================
 ANGLE_VARS: Dict[Tuple[str, str], List[str]] = {
     ("Hip Angle", "Sagittal"):      ["Left Hip Angles_X", "Right Hip Angles_X"],
@@ -132,7 +132,7 @@ COM_VAR = "Pelvis_COM_Z"
 
 
 # =========================
-# DIRECTIONS 
+# Directions
 # =========================
 DIR_ANNOT = {
     ("Hip Angle", "Sagittal", "Angles"): ("Flexion", "up"),
@@ -188,7 +188,7 @@ MANUAL_DIR_POS: Dict[Tuple[str, str], Tuple[float, float]] = {
 
 
 # =========================
-# COM MARKER / SHADING
+# COM Marker/Shading
 # =========================
 COM_TICK_COLOR = "#0a7d0a"   
 COM_TICK_LW = 3.0
@@ -199,7 +199,7 @@ COM_GREY_ALPHA = 0.25
 
 
 # =========================
-# DATA STRUCTURES
+# Data Structures
 # =========================
 @dataclass
 class SubjectData:
@@ -211,7 +211,7 @@ class SubjectData:
 
 
 # =========================
-# HELPERS
+# Helpers
 # =========================
 def _safe_float(x: str) -> Optional[float]:
     try:
