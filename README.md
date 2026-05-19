@@ -202,16 +202,6 @@ You can easily modify:
 
 ---
 
-## Potential Improvements
-
-- CLI interface instead of dialogs
-- Save summary CSVs
-- Add statistical testing
-- Modularize scripts
-- Add config file
-
----
-
 ## Notes
 
 This pipeline is currently tuned for:
